@@ -4,9 +4,7 @@ This is the replication package for the manuscript, **“Understanding the Effec
 
 ## Datasets
 
-In **RQ1**, we use our **SATD Tracker** tool to extract SATDs from all Python and Java repositories that have at least 500 commits, 10 contributors, 10 stars, and not forked.
-
-Using the **SEART** tool, we detected 14,097 Python and 7,982 Java repositories. The SATD Tracker tool successfully processed 13,748 (97.5%) Python and 7,694 (96.4%) Java repositories. We then applied 10 filtering steps to create a clean dataset for SATD repayment. The final dataset contains:
+In **RQ1**, we used our [SATD Tracker](https://github.com/RISElabQueens/SATD-Tracker) tool to extract SATDs from all Python and Java repositories that have at least 500 commits, 10 contributors, 10 stars, and are not forked. To find GitHub repositories meeting these criteria we employed the [SEART](https://seart-ghs.si.usi.ch/) tool, and identified 14,097 Python and 7,982 Java repositories. The SATD Tracker tool successfully processed 13,748 (97.5%) Python and 7,694 (96.4%) Java repositories. We then applied 10 filtering steps to create a clean dataset for SATD repayment. The final dataset contains:
 - **58,722** items for Python, and
 - **97,347** items for Java.
 
